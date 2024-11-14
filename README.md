@@ -2,7 +2,7 @@ Pulll the docker image:
 ```bash
 docker pull louiewang820/sign2text:latest
 ```
-Run docker and attach the file folder to the container
+Run docker and attach the file folder to the container, source below veries and it should be the path to the github folder
 ```bash
 sudo docker run --gpus all -it --rm \
 --shm-size=8g \
